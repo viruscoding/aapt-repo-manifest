@@ -1,6 +1,6 @@
 # aapt-repo-manifest
 
-查看cmake构建脚本请转移至项目 [https://github.com/lizhangqu/aapt-cmake-buildscript](https://github.com/lizhangqu/aapt-cmake-buildscript)
+查看cmake构建脚本请转移至项目 [https://github.com/viruscoding/aapt-cmake-buildscript](https://github.com/viruscoding/aapt-cmake-buildscript)
 
 ## for mac
 
@@ -98,7 +98,7 @@ cd /Volumes/aapt
 #如果存在repo bundle下载不下来的情况，请使用下面的命令进行手动clone
 #git clone http://mirrors.ustc.edu.cn/aosp/git-repo.git/ .repo/repo
 #初始化并同步源码树，约3G
-repo init -u git@github.com:lizhangqu/aapt-repo-manifest.git -b android-8.1.0_r1
+repo init -u git@github.com:viruscoding/aapt-repo-manifest.git -b android-8.1.0_r1 --depth 1
 repo sync -j8
 ```
 
