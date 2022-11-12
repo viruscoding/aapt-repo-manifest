@@ -8,26 +8,36 @@
            remote="aosp"
            sync-j="4" />
   
-  <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
-  <project path="system/core" name="platform/system/core" groups="pdk" />
-  <project path="system/logging" name="platform/system/logging" groups="pdk" />
-  <project path="system/libbase" name="platform/system/libbase" groups="pdk" />
-  <project path="system/libziparchive" name="platform/system/libziparchive" groups="pdk" />
-  <project path="external/expat" name="platform/external/expat" groups="pdk" />
-  <project path="external/libpng" name="platform/external/libpng" groups="pdk" />
-  <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
-  <project path="external/protobuf" name="platform/external/protobuf" groups="pdk" />
-  <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" />
-  <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" />
-  <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
-  
-  <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" /> 
+  <project path="src/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" />
+  <project path="src/boringssl" name="todo" groups="pdk" />
+  <project path="src/core" name="platform/system/core" groups="pdk" />
+  <project path="src/expat" name="platform/external/expat" groups="pdk" />
+  <project path="src/fmtlib" name="platform/external/fmtlib" groups="pdk" />
+  <project path="src/incremental_delivery" name="platform/system/incremental_delivery" groups="pdk" />
+  <project path="src/libbase" name="platform/system/libbase" groups="pdk" />
+  <project path="src/libpng" name="platform/external/libpng" groups="pdk" />
+  <project path="src/libziparchive" name="platform/system/libziparchive" groups="pdk" />
+  <project path="src/logging" name="platform/system/logging" groups="pdk" />
+  <project path="src/pcre" name="platform/system/pcre" groups="pdk" />
+  <project path="src/protobuf" name="platform/external/protobuf" groups="pdk" />
+  <project path="src/selinux" name="platform/external/selinux" groups="pdk" />
+  <project path="src/zopfli" name="platform/external/zopfli" groups="pdk" />
 
-  <remote  name="github" fetch="https://github.com/viruscoding/" />
-  <project path="buildscript" name="aapt-cmake-buildscript.git" remote="github" revision="android-13.0.0_r8">
-    <linkfile src="CMakeLists.txt" dest="CMakeLists.txt" />
-    <linkfile src="windows.toolchain.cmake" dest="windows.toolchain.cmake" />
-  </project>
+
+
+  <!-- 可能用不到？编译通过后删除？ -->
+  <project path="src/native" name="platform/frameworks/native" groups="pdk" />
+  <project path="src/zlib" name="platform/external/zlib" groups="pdk" />
+  <project path="src/libcxx" name="platform/external/libcxx" groups="pdk" />
+  <project path="src/libcxxabi" name="platform/external/libcxxabi" groups="pdk" />
+  <project path="src/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
+  
+  <project path="src/libnativehelper" name="platform/libnativehelper" groups="pdk" />
+
+<!--  <remote  name="github" fetch="https://github.com/viruscoding/" />-->
+<!--  <project path="buildscript" name="aapt-cmake-buildscript.git" remote="github" revision="android-13.0.0_r8">-->
+<!--    <linkfile src="CMakeLists.txt" dest="CMakeLists.txt" />-->
+<!--    <linkfile src="windows.toolchain.cmake" dest="windows.toolchain.cmake" />-->
+<!--  </project>-->
   
 </manifest>
