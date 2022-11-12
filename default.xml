@@ -9,7 +9,7 @@
            sync-j="4" />
   
   <project path="src/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" />
-  <project path="src/boringssl" name="todo" groups="pdk" />
+<!--  <project path="src/boringssl" name="todo" groups="pdk" />-->
   <project path="src/core" name="platform/system/core" groups="pdk" />
   <project path="src/expat" name="platform/external/expat" groups="pdk" />
   <project path="src/fmtlib" name="platform/external/fmtlib" groups="pdk" />
