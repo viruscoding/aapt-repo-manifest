@@ -41,6 +41,8 @@
     <project path="prebuilts/vndk/v30" name="platform/prebuilts/vndk/v30" groups="pdk" clone-depth="1"/>
     <project path="prebuilts/vndk/v31" name="platform/prebuilts/vndk/v31" groups="pdk" clone-depth="1"/>
     <project path="prebuilts/vndk/v32" name="platform/prebuilts/vndk/v32" groups="pdk" clone-depth="1"/>
+    <project path="system/tools/aidl" name="platform/system/tools/aidl" groups="pdk"/>
+    <project path="system/tools/xsdc" name="platform/system/tools/xsdc" groups="pdk"/>
 
     <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs"/>
 </manifest>
