@@ -28,4 +28,6 @@
         <linkfile src="bootstrap.bash" dest="bootstrap.bash"/>
     </project>
 
+    <project path="prebuilts/go/darwin-x86" name="platform/prebuilts/go/darwin-x86" groups="darwin,pdk,tradefed" clone-depth="1" />
+    <project path="prebuilts/go/linux-x86" name="platform/prebuilts/go/linux-x86" groups="linux,pdk,tradefed" clone-depth="1" />
 </manifest>
