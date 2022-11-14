@@ -47,8 +47,11 @@
     <project path="system/tools/xsdc" name="platform/system/tools/xsdc" groups="pdk"/>
     <project path="system/tools/hidl" name="platform/system/tools/hidl" groups="pdk"/>
     <project path="system/apex" name="platform/system/apex" groups="pdk"/>
+    <project path="tools/asuite" name="platform/tools/asuite" groups="pdk"/>
+    <project path="system/core" name="platform/system/core" groups="pdk"/>
+    <project path="packages/modules/adb" name="platform/packages/modules/adb" groups="pdk"/>
 
-    <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs"/>
     <project path="frameworks/native" name="platform/frameworks/native" groups="pdk"/>
     <project path="libnativehelper" name="platform/libnativehelper" groups="pdk"/>
+    <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs"/>
 </manifest>
