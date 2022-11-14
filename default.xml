@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="aosp"
-           fetch="https://android.googlesource.com/"
-           review="https://android-review.googlesource.com/" />
+           fetch="https://android.googlesource.com/platform"
+           review="https://android-review.googlesource.com" />
  
   <default revision="refs/tags/platform-tools-33.0.3"
            remote="aosp"
