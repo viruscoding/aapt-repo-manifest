@@ -2,7 +2,7 @@
 <!--https://android.googlesource.com/platform/manifest/+/refs/heads/platform-tools-33.0.3/default.xml-->
 <manifest>
     <remote name="aosp" fetch=".." review="https://android.googlesource.com/"/>
-    <default remote="aosp" sync-j="4" revision="refs/tags/platform-tools-33.0.3"/>
+    <default remote="aosp" sync-j="4" revision="platform-tools-33.0.3"/>
     <superproject name="platform/superproject" remote="aosp" revision="platform-tools-33.0.3"/>
     <contactinfo bugurl="go/repo-bug"/>
 
