@@ -28,12 +28,18 @@
         <linkfile src="bootstrap.bash" dest="bootstrap.bash"/>
     </project>
 
-    <project path="prebuilts/go/darwin-x86" name="platform/prebuilts/go/darwin-x86" groups="darwin,pdk,tradefed" clone-depth="1" />
-    <project path="prebuilts/go/linux-x86" name="platform/prebuilts/go/linux-x86" groups="linux,pdk,tradefed" clone-depth="1" />
+    <project path="prebuilts/go/darwin-x86" name="platform/prebuilts/go/darwin-x86" groups="darwin,pdk,tradefed"
+             clone-depth="1"/>
+    <project path="prebuilts/go/linux-x86" name="platform/prebuilts/go/linux-x86" groups="linux,pdk,tradefed"
+             clone-depth="1"/>
     <project path="external/golang-protobuf" name="platform/external/golang-protobuf" groups="pdk"/>
     <project path="external/starlark-go" name="platform/external/starlark-go" groups="pdk"/>
     <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" groups="pdk" clone-depth="1"/>
     <project path="prebuilts/vndk/v28" name="platform/prebuilts/vndk/v28" groups="pdk" clone-depth="1"/>
+    <project path="prebuilts/vndk/v29" name="platform/prebuilts/vndk/v29" groups="pdk" clone-depth="1"/>
+    <project path="prebuilts/vndk/v30" name="platform/prebuilts/vndk/v30" groups="pdk" clone-depth="1"/>
+    <project path="prebuilts/vndk/v31" name="platform/prebuilts/vndk/v31" groups="pdk" clone-depth="1"/>
+    <project path="prebuilts/vndk/v32" name="platform/prebuilts/vndk/v32" groups="pdk" clone-depth="1"/>
 
     <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs"/>
 </manifest>
