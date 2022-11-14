@@ -4,7 +4,7 @@
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
  
-  <default revision="platform-tools-33.0.3"
+  <default revision="refs/tags/platform-tools-33.0.3"
            remote="aosp"
            sync-j="4" />
   
