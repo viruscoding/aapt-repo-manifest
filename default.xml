@@ -35,9 +35,9 @@
     <project path="external/go-cmp" name="platform/external/go-cmp" groups="pdk"/>
     <project path="external/golang-protobuf" name="platform/external/golang-protobuf" groups="pdk"/>
     <project path="external/starlark-go" name="platform/external/starlark-go" groups="pdk"/>
-<!--    <project path="external/bazelbuild-rules_android" name="platform/external/bazelbuild-rules_android" groups="pdk"/>-->
-<!--    <project path="external/bazel-skylib" name="platform/external/bazel-skylib" groups="pdk"/>-->
-<!--    <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" groups="pdk" clone-depth="1"/>-->
+    <project path="external/bazelbuild-rules_android" name="platform/external/bazelbuild-rules_android" groups="pdk"/>
+    <project path="external/bazel-skylib" name="platform/external/bazel-skylib" groups="pdk"/>
+    <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" groups="pdk" clone-depth="1"/>
     <project path="prebuilts/vndk/v28" name="platform/prebuilts/vndk/v28" groups="pdk" clone-depth="1"/>
     <project path="prebuilts/vndk/v29" name="platform/prebuilts/vndk/v29" groups="pdk" clone-depth="1"/>
     <project path="prebuilts/vndk/v30" name="platform/prebuilts/vndk/v30" groups="pdk" clone-depth="1"/>
