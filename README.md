@@ -61,7 +61,7 @@ repo sync -j8
 > https://android.googlesource.com/platform/manifest/+/refs/heads/platform-tools-33.0.3/default.xml
 
 - 添加build模块， 同步后执行`. source/envsetup.sh`
-- 然后执行`mmm -h`命令， 缺依赖就在default.xml中补
+- 然后执行`mmm`命令， 缺依赖就在default.xml中补
 - 添加aapt2相关依赖，参考`https://github.com/Lzhiyong/android-sdk-tools`
 
 
