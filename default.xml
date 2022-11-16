@@ -716,7 +716,7 @@
 <!--    <project path="external/tinyalsa" name="platform/external/tinyalsa" groups="pdk"/>-->
 <!--    <project path="external/tinyalsa_new" name="platform/external/tinyalsa_new" groups="pdk"/>-->
 <!--    <project path="external/tinycompress" name="platform/external/tinycompress" groups="pdk"/>-->
-<!--    <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk"/>-->
+    <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk"/>
 <!--    <project path="external/toolchain-utils" name="platform/external/toolchain-utils"/>-->
 <!--    <project path="external/toybox" name="platform/external/toybox" groups="pdk"/>-->
 <!--    <project path="external/tpm2-tss" name="platform/external/tpm2-tss" groups="pdk"/>-->
@@ -1051,7 +1051,7 @@
 <!--    <project path="prebuilts/maven_repo/android" name="platform/prebuilts/maven_repo/android" groups="pdk-cw-fs,pdk-fs" clone-depth="1"/>-->
 <!--    <project path="prebuilts/maven_repo/bumptech" name="platform/prebuilts/maven_repo/bumptech" groups="pdk-cw-fs,pdk-fs" clone-depth="1"/>-->
 <!--    <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk" clone-depth="1"/>-->
-<!--    <project path="prebuilts/module_sdk/art" name="platform/prebuilts/module_sdk/art" groups="pdk" clone-depth="1"/>-->
+    <project path="prebuilts/module_sdk/art" name="platform/prebuilts/module_sdk/art" groups="pdk" clone-depth="1"/>
 <!--    <project path="prebuilts/module_sdk/Bluetooth" name="platform/prebuilts/module_sdk/Bluetooth" groups="pdk" clone-depth="1"/>-->
 <!--    <project path="prebuilts/module_sdk/conscrypt" name="platform/prebuilts/module_sdk/conscrypt" groups="pdk" clone-depth="1"/>-->
 <!--    <project path="prebuilts/module_sdk/Connectivity" name="platform/prebuilts/module_sdk/Connectivity" groups="pdk" clone-depth="1"/>-->
