@@ -7,7 +7,7 @@
 创建大小写敏感磁盘
 
 ```
-hdiutil create -volname "android" -type SPARSE -fs 'Case-sensitive Journaled HFS+' -size 30g android.dmg
+hdiutil create -volname "android" -type SPARSE -fs 'Case-sensitive Journaled HFS+' -size 50g android.dmg
 ```
 
 挂载
