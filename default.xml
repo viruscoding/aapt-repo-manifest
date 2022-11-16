@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <manifest>
-    <remote name="aosp" fetch="https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/"/>
+    <remote name="aosp" fetch="https://android.googlesource.com/" review="https://android-review.googlesource.com/"/>
     <default remote="aosp" sync-j="4" revision="refs/tags/platform-tools-33.0.3"/>
     <superproject name="platform/superproject" remote="aosp" revision="platform-tools-33.0.3"/>
     <contactinfo bugurl="go/repo-bug"/>
